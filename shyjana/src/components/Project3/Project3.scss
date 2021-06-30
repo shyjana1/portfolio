@@ -1,0 +1,98 @@
+.project3{
+    background-color:  rgb(158, 149, 206);
+    display: flex;
+    align-items: center;
+    
+    .arrow-left{
+        height: 100px;
+        right: 150px;
+
+        position: absolute;
+        cursor: pointer;
+
+    }
+    .arrow-right{
+        height: 100px;
+        left: 150px;
+        position: absolute;
+        transform: rotateY(180deg);
+        cursor: pointer;
+    }
+    .slider{
+        height: 550px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item{
+                width: 1000px;
+                height: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .left{
+                    flex: 4;
+                    height:100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .leftContainer{
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .imgContainer{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color: coral;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img{
+                                width: 25px;
+                            }
+                        }
+                        h2{
+                            font-size: 20px;
+                            cursor: pointer;
+                            text-decoration: underline;
+
+                        }
+                        p{
+                            font-size: 13px;
+                            font-weight: 600;
+                        }
+
+                    }
+                }
+                .right{
+                    flex: 8;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img{
+                        width: 600px;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+}
